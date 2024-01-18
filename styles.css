@@ -127,7 +127,8 @@ p {
     line-height: 1;
   }
 }
-/*  global classes */
+
+/*  added classes */
 
 .toilet {
   height: 0;
@@ -136,24 +137,12 @@ p {
 }
 
 .cold {
-  height: 10rem;
+  height: 100px;
 }
 
-.hot {
-  height: 10rem;
-}
 
-.warm {
-  height: 10rem;
-}
 
-.boil {
-  height: 10rem;
-}
-/* section */
-.section {
-  padding: 5rem 0;
-}
+
 
 .section-center {
   width: 90vw;
@@ -201,7 +190,7 @@ nav {
 .logo {
   height: 40px;
 }
-.links a {
+.link {
   color: var(--clr-grey-3);
   font-size: 1rem;
   text-transform: capitalize;
@@ -210,7 +199,7 @@ nav {
   padding: 0.5rem 1rem;
   transition: var(--transition);
 }
-.links a:hover {
+.links :hover {
   background: var(--clr-primary-8);
   color: var(--clr-primary-5);
   padding-left: 1.5rem;
